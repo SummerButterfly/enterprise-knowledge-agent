@@ -1,36 +1,34 @@
-from langchain_qdrant import QdrantVectorStore, RetrievalMode, FastEmbedSparse
-from qdrant_client import QdrantClient
+from pymilvus import connections, Collection
 from langchain_community.embeddings import HuggingFaceBgeEmbeddings
 from config.settings import settings
 
+
 class HybridRetriever:
-    """混合检索器：向量（语义）+ BM25（关键词）"""
+    """Milvus 版检索器（用 pymilvus SDK）"""
 
     def __init__(self):
-        self.client = QdrantClient(url=settings.QDRANT_URL)
+        connections.connect(host=settings.MILVUS_HOST, port=settings.MILVUS_PORT)
+        self.collection = Collection(settings.COLLECTION_NAME)
+        self.collection.load()
         self.embeddings = HuggingFaceBgeEmbeddings(model_name=settings.EMBED_MODEL)
-        self.sparse = FastEmbedSparse(model_name="Qdrant/bm25")
-
-        self.store = QdrantVectorStore(
-            client=self.client,
-            collection_name=settings.COLLECTION_NAME,
-            embedding=self.embeddings,
-            sparse_embedding=self.sparse,
-            retrieval_mode=RetrievalMode.HYBRID,
-        )
 
     def search(self, query: str, k: int = None):
-        """混合检索，返回 [(Document, score), ...]"""
         k = k or settings.TOP_K
-        return self.store.similarity_search_with_score(query, k=k)
+        query_vector = self.embeddings.embed_query(query)
 
-    def search_pure_vector(self, query: str, k: int = None):
-        """纯向量检索（对比用）"""
-        k = k or settings.TOP_K
-        vector_store = QdrantVectorStore(
-            client=self.client,
-            collection_name=settings.COLLECTION_NAME,
-            embedding=self.embeddings,
-            retrieval_mode=RetrievalMode.DENSE,
+        results = self.collection.search(
+            data=[query_vector],
+            anns_field="vector",
+            param={"metric_type": "COSINE", "params": {"nprobe": 10}},
+            limit=k,
+            output_fields=["text", "source"],
         )
-        return vector_store.similarity_search_with_score(query, k=k)
+
+        output = []
+        for hit in results[0]:
+            output.append({
+                "text": hit.entity.get("text"),
+                "score": hit.distance,
+                "source": hit.entity.get("source"),
+            })
+        return output
