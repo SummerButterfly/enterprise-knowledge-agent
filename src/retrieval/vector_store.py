@@ -13,6 +13,7 @@ class HybridRetriever:
         self.embeddings = HuggingFaceBgeEmbeddings(model_name=settings.EMBED_MODEL)
 
     def search(self, query: str, k: int = None):
+        """检索 Top-K，返回 [{text, score, source}, ...]"""
         k = k or settings.TOP_K
         query_vector = self.embeddings.embed_query(query)
 
