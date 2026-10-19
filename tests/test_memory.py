@@ -23,6 +23,5 @@ def main():
         )
         print(f"Agent：{result['messages'][-1].content}")
 
-
 if __name__ == "__main__":
     main()

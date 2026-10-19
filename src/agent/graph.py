@@ -1,5 +1,5 @@
 from langgraph.graph import StateGraph, START, END
-from langgraph.checkpoint.memory import MemorySaver  # 新增：引入记忆组件
+from langgraph.checkpoint.memory import MemorySaver
 
 from src.agent.nodes import (
     AgentState, retrieve_node, generate_node, grade_node, rewrite_node
@@ -28,10 +28,11 @@ def build_agent():
         should_retry,
         {"generate": "generate", "rewrite": "rewrite"}
     )
+
     workflow.add_edge("rewrite", "retrieve")
     workflow.add_edge("generate", END)
 
-    # 核心：编译时传入内存检查点
+    # 核心：编译时传入内存检查点，实现多轮对话记忆
     memory = MemorySaver()
     return workflow.compile(checkpointer=memory)
 
