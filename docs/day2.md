@@ -257,7 +257,7 @@ enterprise-knowledge-agent/
 
 ## 十二、和 Qdrant 版的区别
 
-| 对比 | Qdrant 版（Day 2） | Milvus 版（当前） |
+| 对比 | Qdrant 版[day2.md](day2.md)（Day 2） | Milvus 版（当前） |
 |------|-------------------|------------------|
 | 检索器类 | `QdrantVectorStore` | `pymilvus.Collection` |
 | 返回格式 | `(Document, score)` 元组 | `{text, score, source}` 字典 |
