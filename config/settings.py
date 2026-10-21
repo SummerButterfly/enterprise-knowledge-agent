@@ -11,7 +11,7 @@ class Settings:
     COLLECTION_NAME = "enterprise_kb"
 
     EMBED_MODEL = "BAAI/bge-base-zh-v1.5"
-    LLM_MODEL = "deepseek-chat"
+    LLM_MODEL = "deepseek-flash"
 
     CHUNK_SIZE = 300
     CHUNK_OVERLAP = 50
