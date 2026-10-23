@@ -1,4 +1,5 @@
 services:
+  # ========== Milvus 依赖组件：etcd ==========
   etcd:
     container_name: milvus-etcd
     image: quay.io/coreos/etcd:v3.5.5
@@ -10,27 +11,20 @@ services:
     volumes:
       - ./milvus_data/etcd:/etcd
     command: etcd -advertise-client-urls=http://127.0.0.1:2379 -listen-client-urls http://0.0.0.0:2379 --data-dir /etcd
-    healthcheck:
-      test: ["CMD", "etcdctl", "endpoint", "health"]
-      interval: 30s
-      timeout: 20s
-      retries: 3
 
+  # ========== Milvus 依赖组件：MinIO ==========
   minio:
     container_name: milvus-minio
     image: cgr.dev/chainguard/minio:latest
+    user: "0:0"
     environment:
       MINIO_ACCESS_KEY: minioadmin
       MINIO_SECRET_KEY: minioadmin
     volumes:
       - ./milvus_data/minio:/minio_data
     command: server /minio_data --console-address ":9001"
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
-      interval: 30s
-      timeout: 20s
-      retries: 3
 
+  # ========== Milvus 向量数据库本体 ==========
   milvus:
     container_name: milvus-standalone
     image: milvusdb/milvus:v2.3.3
@@ -46,3 +40,18 @@ services:
     depends_on:
       - etcd
       - minio
+
+  # ========== 你的 FastAPI 业务服务 ==========
+            # 挂载原始文档目录
+  rag-api:
+    container_name: rag-api-service
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      - MILVUS_HOST=milvus
+      - MILVUS_PORT=19530
+    depends_on:
+      - milvus
