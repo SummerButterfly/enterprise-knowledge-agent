@@ -1,0 +1,1002 @@
+[
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销需要什么材料？的相关规定。\n问题：报销需要什么材料？",
+    "output": "{\"answer\": \"发票、行程单、审批单，三者缺一不可\", \"source\": \"第六条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：请假需要提前多久申请？的相关规定。\n问题：请假需要提前多久申请？",
+    "output": "{\"answer\": \"提前一天在系统提交申请\", \"source\": \"第四条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满5年有多少天年假？的相关规定。\n问题：满5年有多少天年假？",
+    "output": "{\"answer\": \"满5年有15天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满3年有多少天年假？的相关规定。\n问题：满3年有多少天年假？",
+    "output": "{\"answer\": \"满3年有10天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销申请要在几天内提交？的相关规定。\n问题：报销申请要在几天内提交？",
+    "output": "{\"answer\": \"费用发生后 30 天内\", \"source\": \"第八条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销需要什么材料？的相关规定。\n问题：报销需要什么材料？",
+    "output": "{\"answer\": \"发票、行程单、审批单，三者缺一不可\", \"source\": \"第六条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销需要什么材料？的相关规定。\n问题：报销需要什么材料？",
+    "output": "{\"answer\": \"发票、行程单、审批单，三者缺一不可\", \"source\": \"第六条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：公司有几个员工？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满1年有多少天年假？的相关规定。\n问题：满1年有多少天年假？",
+    "output": "{\"answer\": \"满1年有5天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：CEO叫什么名字？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：超过5000元的报销找谁审批？的相关规定。\n问题：超过5000元的报销找谁审批？",
+    "output": "{\"answer\": \"财务总监\", \"source\": \"第七条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满5年有多少天年假？的相关规定。\n问题：满5年有多少天年假？",
+    "output": "{\"answer\": \"满5年有15天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满1年有多少天年假？的相关规定。\n问题：满1年有多少天年假？",
+    "output": "{\"answer\": \"满1年有5天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：公司有几个员工？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销需要什么材料？的相关规定。\n问题：报销需要什么材料？",
+    "output": "{\"answer\": \"发票、行程单、审批单，三者缺一不可\", \"source\": \"第六条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：请假需要提前多久申请？的相关规定。\n问题：请假需要提前多久申请？",
+    "output": "{\"answer\": \"提前一天在系统提交申请\", \"source\": \"第四条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销需要什么材料？的相关规定。\n问题：报销需要什么材料？",
+    "output": "{\"answer\": \"发票、行程单、审批单，三者缺一不可\", \"source\": \"第六条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满3年有多少天年假？的相关规定。\n问题：满3年有多少天年假？",
+    "output": "{\"answer\": \"满3年有10天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销申请要在几天内提交？的相关规定。\n问题：报销申请要在几天内提交？",
+    "output": "{\"answer\": \"费用发生后 30 天内\", \"source\": \"第八条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满3年有多少天年假？的相关规定。\n问题：满3年有多少天年假？",
+    "output": "{\"answer\": \"满3年有10天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：请假需要提前多久申请？的相关规定。\n问题：请假需要提前多久申请？",
+    "output": "{\"answer\": \"提前一天在系统提交申请\", \"source\": \"第四条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：请假需要提前多久申请？的相关规定。\n问题：请假需要提前多久申请？",
+    "output": "{\"answer\": \"提前一天在系统提交申请\", \"source\": \"第四条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：加班有加班费吗？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：请假需要提前多久申请？的相关规定。\n问题：请假需要提前多久申请？",
+    "output": "{\"answer\": \"提前一天在系统提交申请\", \"source\": \"第四条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满3年有多少天年假？的相关规定。\n问题：满3年有多少天年假？",
+    "output": "{\"answer\": \"满3年有10天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：超过5000元的报销找谁审批？的相关规定。\n问题：超过5000元的报销找谁审批？",
+    "output": "{\"answer\": \"财务总监\", \"source\": \"第七条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满5年有多少天年假？的相关规定。\n问题：满5年有多少天年假？",
+    "output": "{\"answer\": \"满5年有15天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销申请要在几天内提交？的相关规定。\n问题：报销申请要在几天内提交？",
+    "output": "{\"answer\": \"费用发生后 30 天内\", \"source\": \"第八条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：公司有几个员工？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：超过5000元的报销找谁审批？的相关规定。\n问题：超过5000元的报销找谁审批？",
+    "output": "{\"answer\": \"财务总监\", \"source\": \"第七条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满3年有多少天年假？的相关规定。\n问题：满3年有多少天年假？",
+    "output": "{\"answer\": \"满3年有10天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：辞职流程是什么？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销申请要在几天内提交？的相关规定。\n问题：报销申请要在几天内提交？",
+    "output": "{\"answer\": \"费用发生后 30 天内\", \"source\": \"第八条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满1年有多少天年假？的相关规定。\n问题：满1年有多少天年假？",
+    "output": "{\"answer\": \"满1年有5天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满1年有多少天年假？的相关规定。\n问题：满1年有多少天年假？",
+    "output": "{\"answer\": \"满1年有5天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满1年有多少天年假？的相关规定。\n问题：满1年有多少天年假？",
+    "output": "{\"answer\": \"满1年有5天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销申请要在几天内提交？的相关规定。\n问题：报销申请要在几天内提交？",
+    "output": "{\"answer\": \"费用发生后 30 天内\", \"source\": \"第八条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销需要什么材料？的相关规定。\n问题：报销需要什么材料？",
+    "output": "{\"answer\": \"发票、行程单、审批单，三者缺一不可\", \"source\": \"第六条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满5年有多少天年假？的相关规定。\n问题：满5年有多少天年假？",
+    "output": "{\"answer\": \"满5年有15天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：请假需要提前多久申请？的相关规定。\n问题：请假需要提前多久申请？",
+    "output": "{\"answer\": \"提前一天在系统提交申请\", \"source\": \"第四条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：超过5000元的报销找谁审批？的相关规定。\n问题：超过5000元的报销找谁审批？",
+    "output": "{\"answer\": \"财务总监\", \"source\": \"第七条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满3年有多少天年假？的相关规定。\n问题：满3年有多少天年假？",
+    "output": "{\"answer\": \"满3年有10天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满5年有多少天年假？的相关规定。\n问题：满5年有多少天年假？",
+    "output": "{\"answer\": \"满5年有15天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：超过5000元的报销找谁审批？的相关规定。\n问题：超过5000元的报销找谁审批？",
+    "output": "{\"answer\": \"财务总监\", \"source\": \"第七条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满3年有多少天年假？的相关规定。\n问题：满3年有多少天年假？",
+    "output": "{\"answer\": \"满3年有10天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销申请要在几天内提交？的相关规定。\n问题：报销申请要在几天内提交？",
+    "output": "{\"answer\": \"费用发生后 30 天内\", \"source\": \"第八条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：请假需要提前多久申请？的相关规定。\n问题：请假需要提前多久申请？",
+    "output": "{\"answer\": \"提前一天在系统提交申请\", \"source\": \"第四条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：辞职流程是什么？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：上班时间是什么时候？的相关规定。\n问题：上班时间是什么时候？",
+    "output": "{\"answer\": \"上午 9:00 至下午 18:00，中午休息 1 小时\", \"source\": \"第三条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销申请要在几天内提交？的相关规定。\n问题：报销申请要在几天内提交？",
+    "output": "{\"answer\": \"费用发生后 30 天内\", \"source\": \"第八条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：上班时间是什么时候？的相关规定。\n问题：上班时间是什么时候？",
+    "output": "{\"answer\": \"上午 9:00 至下午 18:00，中午休息 1 小时\", \"source\": \"第三条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：上班时间是什么时候？的相关规定。\n问题：上班时间是什么时候？",
+    "output": "{\"answer\": \"上午 9:00 至下午 18:00，中午休息 1 小时\", \"source\": \"第三条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：公司总部在哪里？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：超过5000元的报销找谁审批？的相关规定。\n问题：超过5000元的报销找谁审批？",
+    "output": "{\"answer\": \"财务总监\", \"source\": \"第七条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满3年有多少天年假？的相关规定。\n问题：满3年有多少天年假？",
+    "output": "{\"answer\": \"满3年有10天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：上班时间是什么时候？的相关规定。\n问题：上班时间是什么时候？",
+    "output": "{\"answer\": \"上午 9:00 至下午 18:00，中午休息 1 小时\", \"source\": \"第三条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满5年有多少天年假？的相关规定。\n问题：满5年有多少天年假？",
+    "output": "{\"answer\": \"满5年有15天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：加班有加班费吗？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：超过5000元的报销找谁审批？的相关规定。\n问题：超过5000元的报销找谁审批？",
+    "output": "{\"answer\": \"财务总监\", \"source\": \"第七条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满5年有多少天年假？的相关规定。\n问题：满5年有多少天年假？",
+    "output": "{\"answer\": \"满5年有15天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销申请要在几天内提交？的相关规定。\n问题：报销申请要在几天内提交？",
+    "output": "{\"answer\": \"费用发生后 30 天内\", \"source\": \"第八条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：上班时间是什么时候？的相关规定。\n问题：上班时间是什么时候？",
+    "output": "{\"answer\": \"上午 9:00 至下午 18:00，中午休息 1 小时\", \"source\": \"第三条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满5年有多少天年假？的相关规定。\n问题：满5年有多少天年假？",
+    "output": "{\"answer\": \"满5年有15天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满5年有多少天年假？的相关规定。\n问题：满5年有多少天年假？",
+    "output": "{\"answer\": \"满5年有15天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满5年有多少天年假？的相关规定。\n问题：满5年有多少天年假？",
+    "output": "{\"answer\": \"满5年有15天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：公司股票代码是多少？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满5年有多少天年假？的相关规定。\n问题：满5年有多少天年假？",
+    "output": "{\"answer\": \"满5年有15天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销申请要在几天内提交？的相关规定。\n问题：报销申请要在几天内提交？",
+    "output": "{\"answer\": \"费用发生后 30 天内\", \"source\": \"第八条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销需要什么材料？的相关规定。\n问题：报销需要什么材料？",
+    "output": "{\"answer\": \"发票、行程单、审批单，三者缺一不可\", \"source\": \"第六条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满3年有多少天年假？的相关规定。\n问题：满3年有多少天年假？",
+    "output": "{\"answer\": \"满3年有10天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：请假需要提前多久申请？的相关规定。\n问题：请假需要提前多久申请？",
+    "output": "{\"answer\": \"提前一天在系统提交申请\", \"source\": \"第四条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：请假需要提前多久申请？的相关规定。\n问题：请假需要提前多久申请？",
+    "output": "{\"answer\": \"提前一天在系统提交申请\", \"source\": \"第四条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满3年有多少天年假？的相关规定。\n问题：满3年有多少天年假？",
+    "output": "{\"answer\": \"满3年有10天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：公司股票代码是多少？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：辞职流程是什么？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：辞职流程是什么？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：加班有加班费吗？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：加班有加班费吗？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：辞职流程是什么？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销需要什么材料？的相关规定。\n问题：报销需要什么材料？",
+    "output": "{\"answer\": \"发票、行程单、审批单，三者缺一不可\", \"source\": \"第六条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满3年有多少天年假？的相关规定。\n问题：满3年有多少天年假？",
+    "output": "{\"answer\": \"满3年有10天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：请假需要提前多久申请？的相关规定。\n问题：请假需要提前多久申请？",
+    "output": "{\"answer\": \"提前一天在系统提交申请\", \"source\": \"第四条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满3年有多少天年假？的相关规定。\n问题：满3年有多少天年假？",
+    "output": "{\"answer\": \"满3年有10天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：公司总部在哪里？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满3年有多少天年假？的相关规定。\n问题：满3年有多少天年假？",
+    "output": "{\"answer\": \"满3年有10天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：超过5000元的报销找谁审批？的相关规定。\n问题：超过5000元的报销找谁审批？",
+    "output": "{\"answer\": \"财务总监\", \"source\": \"第七条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：辞职流程是什么？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：加班有加班费吗？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：加班有加班费吗？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满1年有多少天年假？的相关规定。\n问题：满1年有多少天年假？",
+    "output": "{\"answer\": \"满1年有5天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：公司总部在哪里？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：辞职流程是什么？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销需要什么材料？的相关规定。\n问题：报销需要什么材料？",
+    "output": "{\"answer\": \"发票、行程单、审批单，三者缺一不可\", \"source\": \"第六条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：请假需要提前多久申请？的相关规定。\n问题：请假需要提前多久申请？",
+    "output": "{\"answer\": \"提前一天在系统提交申请\", \"source\": \"第四条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：公司股票代码是多少？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满1年有多少天年假？的相关规定。\n问题：满1年有多少天年假？",
+    "output": "{\"answer\": \"满1年有5天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：上班时间是什么时候？的相关规定。\n问题：上班时间是什么时候？",
+    "output": "{\"answer\": \"上午 9:00 至下午 18:00，中午休息 1 小时\", \"source\": \"第三条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：上班时间是什么时候？的相关规定。\n问题：上班时间是什么时候？",
+    "output": "{\"answer\": \"上午 9:00 至下午 18:00，中午休息 1 小时\", \"source\": \"第三条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满3年有多少天年假？的相关规定。\n问题：满3年有多少天年假？",
+    "output": "{\"answer\": \"满3年有10天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：公司有几个员工？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满3年有多少天年假？的相关规定。\n问题：满3年有多少天年假？",
+    "output": "{\"answer\": \"满3年有10天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：超过5000元的报销找谁审批？的相关规定。\n问题：超过5000元的报销找谁审批？",
+    "output": "{\"answer\": \"财务总监\", \"source\": \"第七条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：公司总部在哪里？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满5年有多少天年假？的相关规定。\n问题：满5年有多少天年假？",
+    "output": "{\"answer\": \"满5年有15天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：请假需要提前多久申请？的相关规定。\n问题：请假需要提前多久申请？",
+    "output": "{\"answer\": \"提前一天在系统提交申请\", \"source\": \"第四条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：公司总部在哪里？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：超过5000元的报销找谁审批？的相关规定。\n问题：超过5000元的报销找谁审批？",
+    "output": "{\"answer\": \"财务总监\", \"source\": \"第七条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：超过5000元的报销找谁审批？的相关规定。\n问题：超过5000元的报销找谁审批？",
+    "output": "{\"answer\": \"财务总监\", \"source\": \"第七条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：公司股票代码是多少？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：辞职流程是什么？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：公司有几个员工？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满1年有多少天年假？的相关规定。\n问题：满1年有多少天年假？",
+    "output": "{\"answer\": \"满1年有5天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：上班时间是什么时候？的相关规定。\n问题：上班时间是什么时候？",
+    "output": "{\"answer\": \"上午 9:00 至下午 18:00，中午休息 1 小时\", \"source\": \"第三条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：加班有加班费吗？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：请假需要提前多久申请？的相关规定。\n问题：请假需要提前多久申请？",
+    "output": "{\"answer\": \"提前一天在系统提交申请\", \"source\": \"第四条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销申请要在几天内提交？的相关规定。\n问题：报销申请要在几天内提交？",
+    "output": "{\"answer\": \"费用发生后 30 天内\", \"source\": \"第八条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：超过5000元的报销找谁审批？的相关规定。\n问题：超过5000元的报销找谁审批？",
+    "output": "{\"answer\": \"财务总监\", \"source\": \"第七条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销需要什么材料？的相关规定。\n问题：报销需要什么材料？",
+    "output": "{\"answer\": \"发票、行程单、审批单，三者缺一不可\", \"source\": \"第六条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：上班时间是什么时候？的相关规定。\n问题：上班时间是什么时候？",
+    "output": "{\"answer\": \"上午 9:00 至下午 18:00，中午休息 1 小时\", \"source\": \"第三条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：请假需要提前多久申请？的相关规定。\n问题：请假需要提前多久申请？",
+    "output": "{\"answer\": \"提前一天在系统提交申请\", \"source\": \"第四条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：加班有加班费吗？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：超过5000元的报销找谁审批？的相关规定。\n问题：超过5000元的报销找谁审批？",
+    "output": "{\"answer\": \"财务总监\", \"source\": \"第七条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满1年有多少天年假？的相关规定。\n问题：满1年有多少天年假？",
+    "output": "{\"answer\": \"满1年有5天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销需要什么材料？的相关规定。\n问题：报销需要什么材料？",
+    "output": "{\"answer\": \"发票、行程单、审批单，三者缺一不可\", \"source\": \"第六条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：公司总部在哪里？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：超过5000元的报销找谁审批？的相关规定。\n问题：超过5000元的报销找谁审批？",
+    "output": "{\"answer\": \"财务总监\", \"source\": \"第七条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：请假需要提前多久申请？的相关规定。\n问题：请假需要提前多久申请？",
+    "output": "{\"answer\": \"提前一天在系统提交申请\", \"source\": \"第四条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：辞职流程是什么？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：超过5000元的报销找谁审批？的相关规定。\n问题：超过5000元的报销找谁审批？",
+    "output": "{\"answer\": \"财务总监\", \"source\": \"第七条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满3年有多少天年假？的相关规定。\n问题：满3年有多少天年假？",
+    "output": "{\"answer\": \"满3年有10天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：请假需要提前多久申请？的相关规定。\n问题：请假需要提前多久申请？",
+    "output": "{\"answer\": \"提前一天在系统提交申请\", \"source\": \"第四条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满3年有多少天年假？的相关规定。\n问题：满3年有多少天年假？",
+    "output": "{\"answer\": \"满3年有10天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：上班时间是什么时候？的相关规定。\n问题：上班时间是什么时候？",
+    "output": "{\"answer\": \"上午 9:00 至下午 18:00，中午休息 1 小时\", \"source\": \"第三条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满1年有多少天年假？的相关规定。\n问题：满1年有多少天年假？",
+    "output": "{\"answer\": \"满1年有5天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销需要什么材料？的相关规定。\n问题：报销需要什么材料？",
+    "output": "{\"answer\": \"发票、行程单、审批单，三者缺一不可\", \"source\": \"第六条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：CEO叫什么名字？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：公司总部在哪里？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：上班时间是什么时候？的相关规定。\n问题：上班时间是什么时候？",
+    "output": "{\"answer\": \"上午 9:00 至下午 18:00，中午休息 1 小时\", \"source\": \"第三条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满1年有多少天年假？的相关规定。\n问题：满1年有多少天年假？",
+    "output": "{\"answer\": \"满1年有5天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：超过5000元的报销找谁审批？的相关规定。\n问题：超过5000元的报销找谁审批？",
+    "output": "{\"answer\": \"财务总监\", \"source\": \"第七条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：超过5000元的报销找谁审批？的相关规定。\n问题：超过5000元的报销找谁审批？",
+    "output": "{\"answer\": \"财务总监\", \"source\": \"第七条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：上班时间是什么时候？的相关规定。\n问题：上班时间是什么时候？",
+    "output": "{\"answer\": \"上午 9:00 至下午 18:00，中午休息 1 小时\", \"source\": \"第三条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销申请要在几天内提交？的相关规定。\n问题：报销申请要在几天内提交？",
+    "output": "{\"answer\": \"费用发生后 30 天内\", \"source\": \"第八条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：超过5000元的报销找谁审批？的相关规定。\n问题：超过5000元的报销找谁审批？",
+    "output": "{\"answer\": \"财务总监\", \"source\": \"第七条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销需要什么材料？的相关规定。\n问题：报销需要什么材料？",
+    "output": "{\"answer\": \"发票、行程单、审批单，三者缺一不可\", \"source\": \"第六条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满3年有多少天年假？的相关规定。\n问题：满3年有多少天年假？",
+    "output": "{\"answer\": \"满3年有10天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：超过5000元的报销找谁审批？的相关规定。\n问题：超过5000元的报销找谁审批？",
+    "output": "{\"answer\": \"财务总监\", \"source\": \"第七条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：请假需要提前多久申请？的相关规定。\n问题：请假需要提前多久申请？",
+    "output": "{\"answer\": \"提前一天在系统提交申请\", \"source\": \"第四条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满1年有多少天年假？的相关规定。\n问题：满1年有多少天年假？",
+    "output": "{\"answer\": \"满1年有5天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满5年有多少天年假？的相关规定。\n问题：满5年有多少天年假？",
+    "output": "{\"answer\": \"满5年有15天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满3年有多少天年假？的相关规定。\n问题：满3年有多少天年假？",
+    "output": "{\"answer\": \"满3年有10天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：公司总部在哪里？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满3年有多少天年假？的相关规定。\n问题：满3年有多少天年假？",
+    "output": "{\"answer\": \"满3年有10天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：超过5000元的报销找谁审批？的相关规定。\n问题：超过5000元的报销找谁审批？",
+    "output": "{\"answer\": \"财务总监\", \"source\": \"第七条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：CEO叫什么名字？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满1年有多少天年假？的相关规定。\n问题：满1年有多少天年假？",
+    "output": "{\"answer\": \"满1年有5天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：请假需要提前多久申请？的相关规定。\n问题：请假需要提前多久申请？",
+    "output": "{\"answer\": \"提前一天在系统提交申请\", \"source\": \"第四条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销申请要在几天内提交？的相关规定。\n问题：报销申请要在几天内提交？",
+    "output": "{\"answer\": \"费用发生后 30 天内\", \"source\": \"第八条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：超过5000元的报销找谁审批？的相关规定。\n问题：超过5000元的报销找谁审批？",
+    "output": "{\"answer\": \"财务总监\", \"source\": \"第七条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满3年有多少天年假？的相关规定。\n问题：满3年有多少天年假？",
+    "output": "{\"answer\": \"满3年有10天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：请假需要提前多久申请？的相关规定。\n问题：请假需要提前多久申请？",
+    "output": "{\"answer\": \"提前一天在系统提交申请\", \"source\": \"第四条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：超过5000元的报销找谁审批？的相关规定。\n问题：超过5000元的报销找谁审批？",
+    "output": "{\"answer\": \"财务总监\", \"source\": \"第七条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销申请要在几天内提交？的相关规定。\n问题：报销申请要在几天内提交？",
+    "output": "{\"answer\": \"费用发生后 30 天内\", \"source\": \"第八条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：上班时间是什么时候？的相关规定。\n问题：上班时间是什么时候？",
+    "output": "{\"answer\": \"上午 9:00 至下午 18:00，中午休息 1 小时\", \"source\": \"第三条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：加班有加班费吗？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：公司有几个员工？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：公司有几个员工？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：公司有几个员工？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：加班有加班费吗？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满5年有多少天年假？的相关规定。\n问题：满5年有多少天年假？",
+    "output": "{\"answer\": \"满5年有15天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：CEO叫什么名字？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销需要什么材料？的相关规定。\n问题：报销需要什么材料？",
+    "output": "{\"answer\": \"发票、行程单、审批单，三者缺一不可\", \"source\": \"第六条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销申请要在几天内提交？的相关规定。\n问题：报销申请要在几天内提交？",
+    "output": "{\"answer\": \"费用发生后 30 天内\", \"source\": \"第八条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：公司有几个员工？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满1年有多少天年假？的相关规定。\n问题：满1年有多少天年假？",
+    "output": "{\"answer\": \"满1年有5天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：请假需要提前多久申请？的相关规定。\n问题：请假需要提前多久申请？",
+    "output": "{\"answer\": \"提前一天在系统提交申请\", \"source\": \"第四条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满5年有多少天年假？的相关规定。\n问题：满5年有多少天年假？",
+    "output": "{\"answer\": \"满5年有15天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满1年有多少天年假？的相关规定。\n问题：满1年有多少天年假？",
+    "output": "{\"answer\": \"满1年有5天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销申请要在几天内提交？的相关规定。\n问题：报销申请要在几天内提交？",
+    "output": "{\"answer\": \"费用发生后 30 天内\", \"source\": \"第八条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满5年有多少天年假？的相关规定。\n问题：满5年有多少天年假？",
+    "output": "{\"answer\": \"满5年有15天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满3年有多少天年假？的相关规定。\n问题：满3年有多少天年假？",
+    "output": "{\"answer\": \"满3年有10天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销申请要在几天内提交？的相关规定。\n问题：报销申请要在几天内提交？",
+    "output": "{\"answer\": \"费用发生后 30 天内\", \"source\": \"第八条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：公司有几个员工？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销需要什么材料？的相关规定。\n问题：报销需要什么材料？",
+    "output": "{\"answer\": \"发票、行程单、审批单，三者缺一不可\", \"source\": \"第六条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：上班时间是什么时候？的相关规定。\n问题：上班时间是什么时候？",
+    "output": "{\"answer\": \"上午 9:00 至下午 18:00，中午休息 1 小时\", \"source\": \"第三条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销需要什么材料？的相关规定。\n问题：报销需要什么材料？",
+    "output": "{\"answer\": \"发票、行程单、审批单，三者缺一不可\", \"source\": \"第六条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满1年有多少天年假？的相关规定。\n问题：满1年有多少天年假？",
+    "output": "{\"answer\": \"满1年有5天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销申请要在几天内提交？的相关规定。\n问题：报销申请要在几天内提交？",
+    "output": "{\"answer\": \"费用发生后 30 天内\", \"source\": \"第八条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：公司有几个员工？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：公司总部在哪里？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满1年有多少天年假？的相关规定。\n问题：满1年有多少天年假？",
+    "output": "{\"answer\": \"满1年有5天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：加班有加班费吗？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：上班时间是什么时候？的相关规定。\n问题：上班时间是什么时候？",
+    "output": "{\"answer\": \"上午 9:00 至下午 18:00，中午休息 1 小时\", \"source\": \"第三条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：请假需要提前多久申请？的相关规定。\n问题：请假需要提前多久申请？",
+    "output": "{\"answer\": \"提前一天在系统提交申请\", \"source\": \"第四条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满1年有多少天年假？的相关规定。\n问题：满1年有多少天年假？",
+    "output": "{\"answer\": \"满1年有5天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：请假需要提前多久申请？的相关规定。\n问题：请假需要提前多久申请？",
+    "output": "{\"answer\": \"提前一天在系统提交申请\", \"source\": \"第四条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：报销申请要在几天内提交？的相关规定。\n问题：报销申请要在几天内提交？",
+    "output": "{\"answer\": \"费用发生后 30 天内\", \"source\": \"第八条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：满5年有多少天年假？的相关规定。\n问题：满5年有多少天年假？",
+    "output": "{\"answer\": \"满5年有15天\", \"source\": \"第五条\", \"confidence\": 0.95}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：加班有加班费吗？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  },
+  {
+    "instruction": "你是一个企业知识库助手。请严格根据资料回答问题，并且只输出合法的 JSON 格式，包含 answer、source、confidence 三个字段。",
+    "input": "资料：未提供相关制度。\n问题：加班有加班费吗？",
+    "output": "{\"answer\": \"资料中未提及\", \"source\": \"无\", \"confidence\": 1.0}"
+  }
+]

@@ -11,3 +11,5 @@ python-multipart==0.0.12
 python-dotenv==1.0.1
 pdfminer.six==20231228
 sentence-transformers==3.2.1
+# 如需运行 LoRA 微调模块 (src/generation/finetuned_llm.py)，请额外安装：
+# pip install -r src/generation/requirements-gpu.txt

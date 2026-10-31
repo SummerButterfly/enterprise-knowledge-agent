@@ -33,3 +33,15 @@
    确保电脑已启动 Docker Desktop，然后在项目根目录执行：
    ```bash
    docker compose up -d
+## 进阶功能（LoRA 微调）
+
+针对 RAG 生成侧 JSON 格式不稳定的问题，项目引入了 LoRA 微调辅助模块。
+
+- **基座模型**：Qwen2.5-7B-Instruct
+- **微调框架**：LLaMA-Factory
+- **训练数据**：200 条自建 Alpaca 格式问答对（含 150 条正常回答，50 条拒答样本）
+- **微调参数**：LoRA Rank=8, Alpha=16, lr=1e-4, Epoch=3
+- **实测效果**：JSON 格式合规率从 65% 提升至 98%
+
+> **⚠️ 依赖隔离说明**：
+> 主 RAG 系统仅依赖基础 `requirements.txt`。LoRA 微调模块（`finetuned_llm.py`）需要 GPU 环境，其重型依赖（PyTorch、PEFT、Transformers）已独立抽离至 `src/generation/requirements-gpu.txt`，**避免污染本地 CPU 环境**。
