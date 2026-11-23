@@ -4,6 +4,6 @@ __pycache__/
 *.pyc
 data/processed/
 data/raw/*.pdf
-qdrant_data/
 milvus_data/
 .idea/
+finetune_weights/
